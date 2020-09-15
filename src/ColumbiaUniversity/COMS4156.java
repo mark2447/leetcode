@@ -47,6 +47,7 @@ public class COMS4156 {
     public static void main(String[] args) {
         int[] array = {3,4,6,2,4,8,667,234,12,6787,3,0,4};
         System.out.println("123123123*****");
+        System.out.println("hello coms4156");
         QuickSort quickSort = new QuickSort();
         int[] res = quickSort.quickSort(array);
         for (int i = 0; i < res.length; i++) {
