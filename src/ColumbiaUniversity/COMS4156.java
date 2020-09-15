@@ -1,7 +1,9 @@
-package bytedance;
+package ColumbiaUniversity;
 
-public class QuickSort {
-    public int[] quickSort(int[] array) {
+import bytedance.QuickSort;
+
+public class COMS4156 {
+	public int[] quickSort(int[] array) {
         if (array == null || array.length == 0) {
             return array;
         }
@@ -45,6 +47,7 @@ public class QuickSort {
     public static void main(String[] args) {
         int[] array = {3,4,6,2,4,8,667,234,12,6787,3,0,4};
         System.out.println("123123123*****");
+        System.out.println("hello coms4156");
         QuickSort quickSort = new QuickSort();
         int[] res = quickSort.quickSort(array);
         for (int i = 0; i < res.length; i++) {
